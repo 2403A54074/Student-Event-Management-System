@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusConnect - Student Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CampusConnect</h1>
+        <p>Student Event Management System</p>
+    </header>
+
+    <nav>
+        <a href="events.html">Home</a>
+        <a href="#events">Events</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Upcoming College Events</h2>
+        <p>Discover, explore and participate in campus activities!</p>
+    </section>
+
+    <section class="events" id="events">
+        <div class="event-card">
+            <h3>Tech Hackathon 2026</h3>
+            <p><strong>Date:</strong> 20 October 2026</p>
+            <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
+            <p>Build innovative solutions and showcase your coding skills.</p>
+            <button onclick="showEvent('Tech Hackathon 2026')">View Event</button>
+        </div>
+
+        <div class="event-card">
+            <h3>AI & Technology Symposium</h3>
+            <p><strong>Date:</strong> 24 October 2026</p>
+            <p><strong>Time:</strong> 10:00 AM - 3:00 PM</p>
+            <p>Explore artificial intelligence and emerging technologies.</p>
+            <button onclick="showEvent('AI & Technology Symposium')">View Event</button>
+        </div>
+
+        <div class="event-card">
+            <h3>Cultural Fest</h3>
+            <p><strong>Date:</strong> 30 October 2026</p>
+            <p><strong>Time:</strong> 4:00 PM - 8:00 PM</p>
+            <p>Enjoy music, dance, art and cultural performances.</p>
+            <button onclick="showEvent('Cultural Fest')">View Event</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 CampusConnect | Student Event Management System</p>
+    </footer>
+
+    <script>
+        function showEvent(name) {
+            alert("You selected: " + name);
+        }
+    </script>
+</body>
+</html>
